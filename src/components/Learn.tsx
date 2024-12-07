@@ -6,11 +6,11 @@ const Learn = () => {
       title: "About",
       img: "./ChefHat.png", 
       description:
-        "Culinix is your new sous-chef to help you cook smarter and more efficiently.",
+        "Culinix is your new sous-chef programming language to cook smarter and more efficiently.",
     },
     {
       title: "General Info",
-      img: "./ChefHat.png",  
+      img: "./General.png",  
       description: "PREP keyword for the pre-start program section. START and END wrap the start and end of the program. Ingredients and recipes more than one word long need quotations. Recipes are case sensitive.", 
     },
     {
