@@ -64,6 +64,8 @@ a:hover{
   align-items: center;
   justify-content: center;
   margin-bottom: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .carousel {
@@ -165,5 +167,4 @@ p {
 .horizontal {
   display: flex;
   justify-content: space-between;
-  width: 35%;
 }
