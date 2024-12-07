@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.Bg { 
+  background-image: url('/public/Bg.png');
+  background-size: cover;         /* Ensures the image covers the entire container */
+  background-position: center;    /* Centers the image */
+  background-attachment: fixed;   /* Prevents the background from scrolling with the page */
+  height: 100vh;                  /* Makes the background cover the full height of the viewport */
+  width: 100%;                    /* Ensures the background covers the full width */
+  margin: 0;                      /* Optional: Removes any default margin */
+  padding: 0;                     /* Optional: Removes any default padding */
+  overflow: hidden;               /* Prevents any overflow of the background image */
+}
+
+h1 {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 100px;
+  font-family: 'Averia+Serif+Libre'
+}
+
+h3 {
+  color: #7b8b41; 
+  margin-top: 10px;
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #cc6600;
+}
+
+a:hover{
+  color: #cb2127;
+} 
+
+.App-header {
+  /* background-color: #f6efebff; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.search {
+  width: 500px;
+  height: 50px;
+  background-color: #fee0c4;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 400px;
+}
+
+.slide {
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 7px #666;
+  width: 100%;
+  height: 100%;
+}
