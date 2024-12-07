@@ -4,14 +4,14 @@
 
 .Bg { 
   background-image: url('/public/Bg.png');
-  background-size: cover;         /* Ensures the image covers the entire container */
-  background-position: center;    /* Centers the image */
-  background-attachment: fixed;   /* Prevents the background from scrolling with the page */
-  height: 100vh;                  /* Makes the background cover the full height of the viewport */
-  width: 100%;                    /* Ensures the background covers the full width */
-  margin: 0;                      /* Optional: Removes any default margin */
-  padding: 0;                     /* Optional: Removes any default padding */
-  overflow: hidden;               /* Prevents any overflow of the background image */
+  background-size: cover;          
+  background-position: center;     
+  background-attachment: fixed;   
+  height: 100vh;                   
+  width: 100%;                   
+  margin: 0;                      
+  padding: 0;                      
+  overflow: hidden;               
 }
 
 h1 {
@@ -21,9 +21,14 @@ h1 {
   font-family: 'Averia+Serif+Libre'
 }
 
+h2 {
+  color: #7b8b41; 
+  margin-top: 16px;
+}
+
 h3 {
   color: #7b8b41; 
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
 a {
@@ -36,8 +41,7 @@ a:hover{
   color: #cb2127;
 } 
 
-.App-header {
-  /* background-color: #f6efebff; */
+.App-header { 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -52,7 +56,7 @@ a:hover{
 }
 
 .search {
-  width: 500px;
+  width: 200px;
   height: 50px;
   background-color: #fee0c4;
   border-radius: 20px;
@@ -75,4 +79,91 @@ a:hover{
   box-shadow: 0px 0px 7px #666;
   width: 100%;
   height: 100%;
+}
+
+
+.learn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;  
+  height: 100vh;  
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;  
+}
+
+.slide-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;  
+  border: 2px solid #cc6600;  
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;  
+}
+
+.slide-image {
+  display: block;  
+  margin: 0 auto; 
+  max-width: 100%; 
+  height: auto;  
+  margin-bottom: 10px;
+}
+
+.slide-text {
+  position: absolute;
+  top: 10%; 
+  left: 50%;
+  transform: translateX(-50%);  
+  color: white;  
+  font-size: 1.5rem;
+  font-weight: bold;
+  z-index: 1;  
+  padding: 0 15px;
+}
+
+p {
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 40px; 
+  width: 100%;
+}
+
+.nav-button {
+  background: none;
+  color: #cc6600;
+  font-size: 2rem;  
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  padding: 0 20px;
+}
+
+.nav-button:hover {
+  color: #b35c00;  
+}
+
+.nav-button:focus {
+  outline: none;
+}
+
+.horizontal {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
 }
