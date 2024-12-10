@@ -59,7 +59,13 @@ const Learn = () => {
       title: "Edit",
       img: "./Edit.png",  
       description:
-        "Remove first instance of specified recipe ingredient. Rewrite entire recipe with 'new' keyword. Replace ingredient a with ingredient b.",
+        "Remove first instance of specified recipe ingredient. Rewrite entire recipe with 'new' keyword. Replace ingredient a with ingredient b. Append ingredients with 'add'.",
+    },
+    {
+      title: "Delete",
+      img: "./Delete.png",  
+      description:
+        "Delete recipe from recipe book.",
     },
   ];
 
